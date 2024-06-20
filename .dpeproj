@@ -1,0 +1,21 @@
+{
+  "@class": "Project",
+  "name": "main",
+  "roots": [
+    {
+      "@class": "ProjectRoot",
+      "name": "main",
+      "_location": "D:/Download/instances/Arcomua Modpack(1)/.minecraft/saves/Lib_World/datapacks/main"
+    }
+  ],
+  "aspects": {
+    "cce:files_aspect": {
+      "@class": "FilesAspect"
+    },
+    "dpe:datapack": {
+      "@class": "DatapackAspect",
+      "dpVersion": "23",
+      "minecraftVersion": "1.20.4"
+    }
+  }
+}

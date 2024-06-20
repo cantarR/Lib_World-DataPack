@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "hurt": {
+      "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+        "damage": {
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "lib_w:player/damage/hurt"
+  }
+}

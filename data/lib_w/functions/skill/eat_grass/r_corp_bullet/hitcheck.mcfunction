@@ -1,0 +1,2 @@
+execute at @s positioned ~-0.85 ~-0.85 ~-0.85 as @e[dx=0,dy=0,dz=0,tag=hit_target] positioned ~0.7 ~0.7 ~0.7 run damage @s[dx=0,dy=0,dz=0] 4.0 player_attack by @e[limit=1,tag=attacker_bullet] from @a[tag=bullet_owner,limit=1]
+execute at @s positioned ~-0.85 ~-0.85 ~-0.85 as @e[dx=0,dy=0,dz=0,tag=hit_target] positioned ~0.7 ~0.7 ~0.7 if entity @s[dx=0,dy=0,dz=0] run execute as @e[tag=attacker_bullet,tag=entity_hit] run function lib_w:skill/bullet/break with entity @s

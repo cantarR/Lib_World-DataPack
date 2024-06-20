@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.components."minecraft:custom_data".train_wooden_sword run function lib_w:skill/train_wooden_sword/melee

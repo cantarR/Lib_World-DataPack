@@ -1,0 +1,1 @@
+execute if score @s magic < #cost magic run tag @s remove magic_success

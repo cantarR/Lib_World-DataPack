@@ -1,0 +1,1 @@
+summon marker 8.5 -60.0 8.5 {Tags:[lobby_spawn],Rotation:[0.0f,0.0f]}

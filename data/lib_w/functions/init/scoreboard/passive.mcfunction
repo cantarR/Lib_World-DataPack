@@ -1,0 +1,1 @@
+scoreboard objectives add passive_lucy_timer dummy

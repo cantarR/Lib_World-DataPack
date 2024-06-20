@@ -1,0 +1,6 @@
+execute if score #damage-type count matches 0 run tellraw @a [{"translate":"sys.msg"},{"translate":"sys.msg.death.0","color":"white","with":[{"selector":"@s"},{"selector":"@a[tag=attacker,limit=1]"},{"selector":"@e[tag=attacker_bullet,limit=1]"}]}]
+execute if score #damage-type count matches 1 run tellraw @a [{"translate":"sys.msg"},{"translate":"sys.msg.death.1","color":"white","with":[{"selector":"@s"},{"selector":"@a[tag=attacker,limit=1]"}]}]
+execute if score #damage-type count matches 2 run tellraw @a [{"translate":"sys.msg"},{"translate":"sys.msg.death.2","color":"white","with":[{"selector":"@s"},{"selector":"@a[tag=attacker,limit=1]"}]}]
+execute if score #damage-type count matches 3 run tellraw @a [{"translate":"sys.msg"},{"translate":"sys.msg.death.3","color":"white","with":[{"selector":"@s"},{"selector":"@a[tag=attacker,limit=1]"}]}]
+execute if score #damage-type count matches 4 run tellraw @a [{"translate":"sys.msg"},{"translate":"sys.msg.death.4","color":"white","with":[{"selector":"@s"},{"selector":"@a[tag=attacker,limit=1]"}]}]
+execute if score #damage-type count matches 10.. run tellraw @a [{"translate":"sys.msg"},{"translate":"sys.msg.death.0","color":"white","with":[{"selector":"@s"},{"selector":"@a[tag=attacker]"},{"selector":"@e[tag=attacker_bullet]"}]}]

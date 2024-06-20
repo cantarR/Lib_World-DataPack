@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "hurt_by_melee": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "source_entity": {
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+        "function": "lib_w:player/damage/hurt_by_melee"
+    }
+  }
+  
