@@ -1,5 +1,5 @@
 
-data modify storage lib_w:stats Actionbar append value '{"text":"   ","font":"default"}'
+data modify storage lib_w:stats Actionbar append value '{"text":"              ","font":"default","color":"black"}'
 scoreboard players operation #hud charge_time = @s charge_time
 scoreboard players operation #hud charge = #hud charge_time
 scoreboard players operation #hud charge -= @s charge
@@ -487,4 +487,487 @@ execute if score #hud charge matches 20.. run data modify storage lib_w:stats Ac
         }]\
     ]\
 }'
-data modify storage lib_w:stats Actionbar append value '{"text":"   ","font":"default"}'
+data modify storage lib_w:stats Actionbar append value '{"text":"%   ","font":"default","color":"black"}'
+scoreboard players operation #hud acp = @s acp
+scoreboard players operation #hud acp /= 5 const
+execute if score #hud acp matches ..1 run data modify storage lib_w:stats Actionbar append value '{\
+    "translate":"title.actionbar.acp.1",\
+    "color":"white",\
+    "font":"minecraft:actionbar",\
+    "with":\
+    [\
+        [{\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:back.state",\
+            "color":"black"\
+        },\
+        {\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:default",\
+            "color":"black"\
+        }]\
+    ]\
+}'
+execute if score #hud acp matches 2 run data modify storage lib_w:stats Actionbar append value '{\
+    "translate":"title.actionbar.acp.2",\
+    "color":"white",\
+    "font":"minecraft:actionbar",\
+    "with":\
+    [\
+        [{\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:back.state",\
+            "color":"black"\
+        },\
+        {\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:default",\
+            "color":"black"\
+        }]\
+    ]\
+}'
+execute if score #hud acp matches 3 run data modify storage lib_w:stats Actionbar append value '{\
+    "translate":"title.actionbar.acp.3",\
+    "color":"white",\
+    "font":"minecraft:actionbar",\
+    "with":\
+    [\
+        [{\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:back.state",\
+            "color":"black"\
+        },\
+        {\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:default",\
+            "color":"black"\
+        }]\
+    ]\
+}'
+execute if score #hud acp matches 4 run data modify storage lib_w:stats Actionbar append value '{\
+    "translate":"title.actionbar.acp.4",\
+    "color":"white",\
+    "font":"minecraft:actionbar",\
+    "with":\
+    [\
+        [{\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:back.state",\
+            "color":"black"\
+        },\
+        {\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:default",\
+            "color":"black"\
+        }]\
+    ]\
+}'
+execute if score #hud acp matches 5 run data modify storage lib_w:stats Actionbar append value '{\
+    "translate":"title.actionbar.acp.5",\
+    "color":"white",\
+    "font":"minecraft:actionbar",\
+    "with":\
+    [\
+        [{\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:back.state",\
+            "color":"black"\
+        },\
+        {\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:default",\
+            "color":"black"\
+        }]\
+    ]\
+}'
+execute if score #hud acp matches 6 run data modify storage lib_w:stats Actionbar append value '{\
+    "translate":"title.actionbar.acp.6",\
+    "color":"white",\
+    "font":"minecraft:actionbar",\
+    "with":\
+    [\
+        [{\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:back.state",\
+            "color":"black"\
+        },\
+        {\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:default",\
+            "color":"black"\
+        }]\
+    ]\
+}'
+execute if score #hud acp matches 7 run data modify storage lib_w:stats Actionbar append value '{\
+    "translate":"title.actionbar.acp.7",\
+    "color":"white",\
+    "font":"minecraft:actionbar",\
+    "with":\
+    [\
+        [{\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:back.state",\
+            "color":"black"\
+        },\
+        {\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:default",\
+            "color":"black"\
+        }]\
+    ]\
+}'
+execute if score #hud acp matches 8 run data modify storage lib_w:stats Actionbar append value '{\
+    "translate":"title.actionbar.acp.8",\
+    "color":"white",\
+    "font":"minecraft:actionbar",\
+    "with":\
+    [\
+        [{\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:back.state",\
+            "color":"black"\
+        },\
+        {\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:default",\
+            "color":"black"\
+        }]\
+    ]\
+}'
+execute if score #hud acp matches 9 run data modify storage lib_w:stats Actionbar append value '{\
+    "translate":"title.actionbar.acp.9",\
+    "color":"white",\
+    "font":"minecraft:actionbar",\
+    "with":\
+    [\
+        [{\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:back.state",\
+            "color":"black"\
+        },\
+        {\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:default",\
+            "color":"black"\
+        }]\
+    ]\
+}'
+execute if score #hud acp matches 10 run data modify storage lib_w:stats Actionbar append value '{\
+    "translate":"title.actionbar.acp.10",\
+    "color":"white",\
+    "font":"minecraft:actionbar",\
+    "with":\
+    [\
+        [{\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:back.state",\
+            "color":"black"\
+        },\
+        {\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:default",\
+            "color":"black"\
+        }]\
+    ]\
+}'
+execute if score #hud acp matches 11 run data modify storage lib_w:stats Actionbar append value '{\
+    "translate":"title.actionbar.acp.11",\
+    "color":"white",\
+    "font":"minecraft:actionbar",\
+    "with":\
+    [\
+        [{\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:back.state",\
+            "color":"black"\
+        },\
+        {\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:default",\
+            "color":"black"\
+        }]\
+    ]\
+}'
+execute if score #hud acp matches 12 run data modify storage lib_w:stats Actionbar append value '{\
+    "translate":"title.actionbar.acp.12",\
+    "color":"white",\
+    "font":"minecraft:actionbar",\
+    "with":\
+    [\
+        [{\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:back.state",\
+            "color":"black"\
+        },\
+        {\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:default",\
+            "color":"black"\
+        }]\
+    ]\
+}'
+execute if score #hud acp matches 13 run data modify storage lib_w:stats Actionbar append value '{\
+    "translate":"title.actionbar.acp.13",\
+    "color":"white",\
+    "font":"minecraft:actionbar",\
+    "with":\
+    [\
+        [{\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:back.state",\
+            "color":"black"\
+        },\
+        {\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:default",\
+            "color":"black"\
+        }]\
+    ]\
+}'
+execute if score #hud acp matches 14 run data modify storage lib_w:stats Actionbar append value '{\
+    "translate":"title.actionbar.acp.14",\
+    "color":"white",\
+    "font":"minecraft:actionbar",\
+    "with":\
+    [\
+        [{\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:back.state",\
+            "color":"black"\
+        },\
+        {\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:default",\
+            "color":"black"\
+        }]\
+    ]\
+}'
+execute if score #hud acp matches 15 run data modify storage lib_w:stats Actionbar append value '{\
+    "translate":"title.actionbar.acp.15",\
+    "color":"white",\
+    "font":"minecraft:actionbar",\
+    "with":\
+    [\
+        [{\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:back.state",\
+            "color":"black"\
+        },\
+        {\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:default",\
+            "color":"black"\
+        }]\
+    ]\
+}'
+execute if score #hud acp matches 16 run data modify storage lib_w:stats Actionbar append value '{\
+    "translate":"title.actionbar.acp.16",\
+    "color":"white",\
+    "font":"minecraft:actionbar",\
+    "with":\
+    [\
+        [{\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:back.state",\
+            "color":"black"\
+        },\
+        {\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:default",\
+            "color":"black"\
+        }]\
+    ]\
+}'
+execute if score #hud acp matches 17 run data modify storage lib_w:stats Actionbar append value '{\
+    "translate":"title.actionbar.acp.17",\
+    "color":"white",\
+    "font":"minecraft:actionbar",\
+    "with":\
+    [\
+        [{\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:back.state",\
+            "color":"black"\
+        },\
+        {\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:default",\
+            "color":"black"\
+        }]\
+    ]\
+}'
+execute if score #hud acp matches 18 run data modify storage lib_w:stats Actionbar append value '{\
+    "translate":"title.actionbar.acp.18",\
+    "color":"white",\
+    "font":"minecraft:actionbar",\
+    "with":\
+    [\
+        [{\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:back.state",\
+            "color":"black"\
+        },\
+        {\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:default",\
+            "color":"black"\
+        }]\
+    ]\
+}'
+execute if score #hud acp matches 19 run data modify storage lib_w:stats Actionbar append value '{\
+    "translate":"title.actionbar.acp.19",\
+    "color":"white",\
+    "font":"minecraft:actionbar",\
+    "with":\
+    [\
+        [{\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:back.state",\
+            "color":"black"\
+        },\
+        {\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:default",\
+            "color":"black"\
+        }]\
+    ]\
+}'
+execute if score #hud acp matches 20 run data modify storage lib_w:stats Actionbar append value '{\
+    "translate":"title.actionbar.acp.20",\
+    "color":"white",\
+    "font":"minecraft:actionbar",\
+    "with":\
+    [\
+        [{\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:back.state",\
+            "color":"black"\
+        },\
+        {\
+            "score":\
+            {\
+                "objective":"acp","name":"@s"\
+            },\
+            "font":"minecraft:default",\
+            "color":"black"\
+        }]\
+    ]\
+}'
+data modify storage lib_w:stats Actionbar append value '{"text":"%","font":"default","color":"black"}'

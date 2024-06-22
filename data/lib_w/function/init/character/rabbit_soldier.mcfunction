@@ -1,10 +1,10 @@
 data modify storage lib_w:chr CHR_LIST append value {\
-	id:1,\
-	attack_level:3,\
-	defense_level:-2,\
-	magic_max:0,\
-	emotion_efficiency:0.75f,\
-	movement_speed:4.0f,\
+	id:2,\
+	attack_level:-3,\
+	defense_level:-3,\
+	magic_max:60,\
+	emotion_efficiency:1.25f,\
+	movement_speed:5.0f,\
 	MainSkill:\
 	{\
 		id:"warped_fungus_on_a_stick",\
@@ -18,49 +18,34 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			"minecraft:attribute_modifiers":\
 			{\
 				show_in_tooltip:0b,\
-				modifiers:\
-				[\
-					{\
-						type:"minecraft:generic.attack_damage",\
-						uuid:[I; 1267, 880, 1245, 789],\
-						amount:4.0d,\
-						operation:"add_value",\
-						name:"generic.attack_damage",\
-						slot:"mainhand"\
-					},\
-					{\
-						type:"minecraft:generic.attack_speed",\
-						uuid:[I; 1268, 881, 1246, 790],\
-						amount:-3.0d,\
-						operation:"add_value",\
-						name:"generic.attack_speed",\
-						slot:"mainhand"\
-					}\
-				]\
+				modifiers:[]\
 			},\
 			"minecraft:lore":\
 			[\
 				'{"translate":"dsc.main_skill","italic":false,"color":"gray"}',\
-				'{"translate":"chr.lucy.main.1","italic":false,"color":"white"}',\
-				'{"translate":"chr.lucy.main.2","italic":false,"color":"white"}',\
-				'{"translate":"dsc.melee.speed","with":[1.0],"italic":false,"color":"green"}',\
-				'{"translate":"dsc.melee.damage","with":[4.0],"italic":false,"color":"red"}'\
+				'{"translate":"chr.rabbit_soldier.main.1","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.main.2","italic":false,"color":"white"}',\
+				'{"translate":"dsc.melee.speed","with":[1.6],"italic":false,"color":"green"}',\
+                '{"translate":"dsc.remote.damage","with":[4.0],"italic":false,"color":"red"}',\
+                '{"translate":"dsc.cost","with":[15],"italic":false,"color":"aqua"}',\
+				'{"translate":"dsc.melee.damage","with":[2.0],"italic":false,"color":"red"}'\
 			],\
-			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.lucy.main","italic":false,"color":"white"}]}',\
+			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier.main","italic":false,"color":"white"}]}',\
 			"minecraft:hide_additional_tooltip":{},\
 			"minecraft::enchantment_glint_override":1b,\
 			"minecraft:enchantments":{\
 				levels:{},\
 				show_in_tooltip:0b\
 			},\
-			"minecraft:custom_model_data":1000001,\
+			"minecraft:custom_model_data":1000101,\
 			"minecraft:custom_data":\
 			{\
 				main_skill:1b,\
-				train_wooden_sword:1b,\
-				melee_weapon:1b,\
-				attack_speed:1.0f,\
-				attack_damage:4.0f\
+				eat_grass:1b,\
+				attack_speed:1.6f,\
+				attack_damage:2.0f,\
+                remote_damage:4.0f,\
+                cost:15\
 			}\
 		}\
 	},\
@@ -83,34 +68,34 @@ data modify storage lib_w:chr CHR_LIST append value {\
 					uuid:[I; 1267, 880, 1245, 789],\
 					amount:-10.0d,\
 					operation:"add_value",\
-					name:"generic.attack_damage",\
+					id:"generic.attack_damage",\
 					slot:"mainhand"\
 				}]\
 			},\
 			"minecraft:lore":\
 			[\
 				'{"translate":"dsc.charge_skill","italic":false,"color":"gray"}',\
-				'{"translate":"chr.lucy.charge.1","italic":false,"color":"white"}',\
-				'{"translate":"chr.lucy.charge.2","italic":false,"color":"white"}',\
-				'{"translate":"chr.lucy.charge.3","with":[{"text":"\\uF001","font":"minecraft:effects"}],"italic":false,"color":"white"}',\
-				'{"translate":"chr.lucy.charge.4","italic":false,"color":"white"}',\
-				'{"translate":"dsc.charge","with":[8.0],"italic":false,"color":"gold"}',\
-				'{"translate":"dsc.duration","with":[3.0],"italic":false,"color":"green"}',\
-				'{"translate":"dsc.duration","with":[10.0],"italic":false,"color":"green"}'\
+				'{"translate":"chr.rabbit_soldier.charge.1","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.charge.2","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.charge.3","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.charge.4","italic":false,"color":"white"}',\
+				'{"translate":"dsc.charge","with":[5.0],"italic":false,"color":"gold"}',\
+                '{"translate":"dsc.charge_time","with":[1.0],"italic":false,"color":"gold"}',\
+				'{"translate":"dsc.multiple","with":[50.0],"italic":false,"color":"green"}'\
 			],\
-			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.lucy.charge","italic":false,"color":"white"}]}',\
+			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier.charge","italic":false,"color":"white"}]}',\
 			"minecraft:hide_additional_tooltip":{},\
 			"minecraft::enchantment_glint_override":1b,\
 			"minecraft:enchantments":{\
 				levels:{},\
 				show_in_tooltip:0b\
 			},\
-			"minecraft:custom_model_data":1000002,\
+			"minecraft:custom_model_data":1000102,\
 			"minecraft:custom_data":\
 			{\
 				charge_skill:1b,\
-				time_difference_attack:1b,\
-				charge:8.0\
+				firepower:1b,\
+				charge:5.0\
 			}\
 		}\
 	},\
@@ -133,20 +118,20 @@ data modify storage lib_w:chr CHR_LIST append value {\
 					uuid:[I; 1267, 880, 1245, 789],\
 					amount:-10.0d,\
 					operation:"add_value",\
-					name:"generic.attack_damage",\
+					id:"generic.attack_damage",\
 					slot:"mainhand"\
 				}]\
 			},\
 			"minecraft:lore":\
 			[\
 				'{"translate":"dsc.special_skill","italic":false,"color":"gray"}',\
-				'{"translate":"chr.lucy.special.1","italic":false,"color":"white"}',\
-				'{"translate":"chr.lucy.special.2","italic":false,"color":"white"}',\
-				'{"translate":"chr.lucy.special.3","italic":false,"color":"white"}',\
-				'{"translate":"chr.lucy.special.4","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.special.1","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.special.2","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.special.3","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.special.4","italic":false,"color":"white"}',\
 				'{"translate":"dsc.multiple","with":[10.0],"italic":false,"color":"dark_purple","extra":[{"text":"%"}]}'\
 			],\
-			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.lucy.special","italic":false,"color":"white"}]}',\
+			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier.special","italic":false,"color":"white"}]}',\
 			"minecraft:hide_additional_tooltip":{},\
 			"minecraft::enchantment_glint_override":1b,\
 			"minecraft:enchantments":{\
@@ -180,21 +165,21 @@ data modify storage lib_w:chr CHR_LIST append value {\
 					uuid:[I; 1267, 880, 1245, 789],\
 					amount:-10.0d,\
 					operation:"add_value",\
-					name:"generic.attack_damage",\
+					id:"generic.attack_damage",\
 					slot:"mainhand"\
 				}]\
 			},\
 			"minecraft:lore":\
 			[\
 				'{"translate":"dsc.defense_skill","italic":false,"color":"gray"}',\
-				'{"translate":"chr.lucy.defense.1","italic":false,"color":"white"}',\
-				'{"translate":"chr.lucy.defense.2","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.defense.1","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.defense.2","italic":false,"color":"white"}',\
 				'{"translate":"dsc.duration","with":[3.0],"italic":false,"color":"green"}',\
 				'{"translate":"dsc.defense","with":[6],"italic":false,"color":"blue"}',\
 				'{"translate":"dsc.multiple","with":[10.0],"italic":false,"color":"dark_purple","extra":[{"text":"%"}]}',\
 				'{"translate":"dsc.offhand","italic":false,"color":"aqua"}'\
 			],\
-			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.lucy.defense","italic":false,"color":"white"}]}',\
+			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier.defense","italic":false,"color":"white"}]}',\
 			"minecraft:hide_additional_tooltip":{},\
 			"minecraft::enchantment_glint_override":1b,\
 			"minecraft:enchantments":{\
@@ -205,7 +190,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			"minecraft:custom_data":\
 			{\
 				defense_skill:1b,\
-				hit_back:1b,\
+				dodge:1b,\
 				offhand_item:1b\
 			}\
 		}\
@@ -229,20 +214,20 @@ data modify storage lib_w:chr CHR_LIST append value {\
 					uuid:[I; 1267, 880, 1245, 789],\
 					amount:-10,\
 					operation:"add_value",\
-					name:"generic.armor",\
+					id:"generic.armor",\
 					slot:"head"\
 				}]\
 			},\
 			"minecraft:lore":\
 			[\
-				'{"translate":"chr.lucy.title","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.title","italic":false,"color":"white"}',\
 				'{"text":""}',\
-				'{"translate":"chr.lucy.1","italic":false,"color":"white"}',\
-				'{"translate":"chr.lucy.2","italic":false,"color":"white"}',\
-				'{"translate":"chr.lucy.3","italic":false,"color":"white"}',\
-				'{"translate":"chr.lucy.4","italic":false,"color":"white"}'\
+				'{"translate":"chr.rabbit_soldier.1","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.2","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.3","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.4","italic":false,"color":"white"}'\
 			],\
-			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.lucy","italic":false,"color":"white"}]}',\
+			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier","italic":false,"color":"white"}]}',\
 			"minecraft:hide_additional_tooltip":{},\
 			"minecraft::enchantment_glint_override":1b,\
 			"minecraft:enchantments":{\
@@ -275,22 +260,21 @@ data modify storage lib_w:chr CHR_LIST append value {\
 					uuid:[I; 1267, 880, 1245, 789],\
 					amount:-10,\
 					operation:"add_value",\
-					name:"generic.armor",\
+					id:"generic.armor",\
 					slot:"chest"\
 				}]\
 			},\
 			"minecraft:lore":\
 			[\
 				'{"text":""}',\
-				'{"translate":"chr.lucy.passive.1","italic":false,"color":"white"}',\
-				'{"translate":"chr.lucy.passive.2","italic":false,"color":"white"}',\
-				'{"translate":"chr.lucy.passive.3","italic":false,"color":"white"}',\
-				'{"translate":"chr.lucy.passive.4","with":[{"text":"\\uF001","font":"minecraft:effects"}],"italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.passive.1","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.passive.2","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.passive.3","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.passive.4","italic":false,"color":"white"}',\
 				'{"translate":"dsc.cooldown","with":[30.0],"italic":false,"color":"yellow"}',\
-				'{"translate":"dsc.duration","with":[10.0],"italic":false,"color":"green"}',\
-				'{"translate":"dsc.multiple","with":[10.0],"italic":false,"color":"dark_purple","extra":[{"text":"%"}]}'\
+				'{"translate":"dsc.duration","with":[10.0],"italic":false,"color":"green"}'\
 			],\
-			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.lucy.passive","italic":false,"color":"white"}]}',\
+			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier.passive","italic":false,"color":"white"}]}',\
 			"minecraft:hide_additional_tooltip":{},\
 			"minecraft::enchantment_glint_override":1b,\
 			"minecraft:enchantments":{\
@@ -304,7 +288,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			"minecraft:custom_data":\
 			{\
 				chr_chest:1b,\
-				passive:"lucy"\
+				passive:"rabbit_soldier"\
 			}\
 		}\
 	},\
@@ -327,7 +311,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 					uuid:[I; 1267, 880, 1245, 789],\
 					amount:-10,\
 					operation:"add_value",\
-					name:"generic.armor",\
+					id:"generic.armor",\
 					slot:"legs"\
 				}]\
 			},\
@@ -371,7 +355,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 					uuid:[I; 1267, 880, 1245, 789],\
 					amount:-10,\
 					operation:"add_value",\
-					name:"generic.armor",\
+					id:"generic.armor",\
 					slot:"feet"\
 				}]\
 			},\
@@ -398,49 +382,9 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			}\
 		}\
 	},\
-	ExtraSkill:\
+    ExtraSkill:\
 	{\
-		id:"warped_fungus_on_a_stick",\
-		count:1,\
-		components:\
-		{\
-			"minecraft:dyed_color":\
-			{\
-				show_in_tooltip:0b,rgb:10511680\
-			},\
-			"minecraft:attribute_modifiers":\
-			{\
-				show_in_tooltip:0b,\
-				modifiers:\
-				[{\
-					type:"minecraft:generic.attack_damage",\
-					uuid:[I; 1267, 880, 1245, 789],\
-					amount:-10.0d,\
-					operation:"add_value",\
-					name:"generic.attack_damage",\
-					slot:"mainhand"\
-				}]\
-			},\
-			"minecraft:lore":\
-			[\
-				'{"translate":"dsc.extra_skill","italic":false,"color":"gray"}',\
-				'{"translate":"chr.lucy.extra.1","italic":false,"color":"white"}',\
-				'{"translate":"chr.lucy.extra.2","italic":false,"color":"white"}',\
-				'{"translate":"dsc.breakable","with":[3],"italic":false,"color":"red"}'\
-			],\
-			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.lucy.extra","italic":false,"color":"white"}]}',\
-			"minecraft:hide_additional_tooltip":{},\
-			"minecraft::enchantment_glint_override":1b,\
-			"minecraft:enchantments":{\
-				levels:{},\
-				show_in_tooltip:0b\
-			},\
-			"minecraft:custom_model_data":1000005,\
-			"minecraft:custom_data":\
-			{\
-				extra_skill:1b,\
-				lucys_necklace:1b\
-			}\
-		}\
+		id:"carrot",\
+		count:1\
 	}\
 }

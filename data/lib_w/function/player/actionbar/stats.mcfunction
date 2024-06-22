@@ -480,7 +480,7 @@ execute if score #hud break matches 20.. run data modify storage lib_w:stats Act
         }]\
     ]\
 }'
-data modify storage lib_w:stats Actionbar append value '{"text":"   ","font":"default"}'
+data modify storage lib_w:stats Actionbar append value '{"text":"%   ","font":"default","color":"black"}'
 
 scoreboard players operation #hud magic = @s magic
 scoreboard players operation #hud magicmax = @s magicmax
