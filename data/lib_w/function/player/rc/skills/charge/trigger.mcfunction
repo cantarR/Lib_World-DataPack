@@ -1,0 +1,1 @@
+execute unless entity @s[tag=full_charge] run tag @s remove charge_success

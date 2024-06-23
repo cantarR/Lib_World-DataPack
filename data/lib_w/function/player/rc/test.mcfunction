@@ -1,1 +1,0 @@
-particle minecraft:dust{color:[1.0,1.0,1.0],scale:2.0f} ^ ^ ^3 0 0 0 4 16

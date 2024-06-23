@@ -1,0 +1,1 @@
+summon marker 0.0 1.0 1000 {Tags:[map_center,map_backstreet]}

@@ -5,7 +5,9 @@ run tag @s add nooffhand
 item replace block 512 -48 512 container.24 from entity @s[tag=nooffhand] weapon.offhand
 item replace block 512 -48 512 container.25 from entity @s[tag=nooffhand] weapon.mainhand
 item replace entity @s[tag=nooffhand] weapon.offhand from block 512 -48 512 container.25
-execute if data entity @s SelectedItem run item replace entity @s[tag=nooffhand] weapon.offhand with air
-execute if data entity @s SelectedItem run item replace entity @s[tag=nooffhand] player.cursor from block 512 -48 512 container.24
-execute unless data entity @s SelectedItem run item replace entity @s[tag=nooffhand] weapon.mainhand from block 512 -48 512 container.24
+execute if data entity @s[tag=nooffhand] SelectedItem run item replace entity @s[tag=nooffhand] weapon.offhand with air
+execute if data entity @s[tag=nooffhand] SelectedItem at @s run summon item ~ ~ ~ {Item:{id:"minecraft:potato",count:1},Tags:[summon,item]}
+data modify entity @e[tag=summon,tag=item,limit=1] Item set from block 512 -48 512 Items[{Slot:24b}]
+tag @e remove summon
+execute unless data entity @s[tag=nooffhand] SelectedItem run item replace entity @s[tag=nooffhand] weapon.mainhand from block 512 -48 512 container.24
 tag @s remove nooffhand

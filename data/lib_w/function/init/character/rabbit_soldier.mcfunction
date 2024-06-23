@@ -76,9 +76,8 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			[\
 				'{"translate":"dsc.charge_skill","italic":false,"color":"gray"}',\
 				'{"translate":"chr.rabbit_soldier.charge.1","italic":false,"color":"white"}',\
-				'{"translate":"chr.rabbit_soldier.charge.2","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.charge.2","with":[{"text":"\\uF004","font":"minecraft:effects"}],"italic":false,"color":"white"}',\
 				'{"translate":"chr.rabbit_soldier.charge.3","italic":false,"color":"white"}',\
-				'{"translate":"chr.rabbit_soldier.charge.4","italic":false,"color":"white"}',\
 				'{"translate":"dsc.charge","with":[5.0],"italic":false,"color":"gold"}',\
                 '{"translate":"dsc.charge_time","with":[1.0],"italic":false,"color":"gold"}',\
 				'{"translate":"dsc.multiple","with":[50.0],"italic":false,"color":"green"}'\
@@ -126,10 +125,10 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			[\
 				'{"translate":"dsc.special_skill","italic":false,"color":"gray"}',\
 				'{"translate":"chr.rabbit_soldier.special.1","italic":false,"color":"white"}',\
-				'{"translate":"chr.rabbit_soldier.special.2","italic":false,"color":"white"}',\
-				'{"translate":"chr.rabbit_soldier.special.3","italic":false,"color":"white"}',\
-				'{"translate":"chr.rabbit_soldier.special.4","italic":false,"color":"white"}',\
-				'{"translate":"dsc.multiple","with":[10.0],"italic":false,"color":"dark_purple","extra":[{"text":"%"}]}'\
+				'{"translate":"chr.rabbit_soldier.special.2","with":[{"text":"\\uF004","font":"minecraft:effects"},{"text":"\\uF004","font":"minecraft:effects"}],"italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.special.3","with":[{"text":"\\uF005","font":"minecraft:effects"}],"italic":false,"color":"white"}',\
+				'{"translate":"dsc.defense","with":[-10.0],"italic":false,"color":"dark_purple","extra":[{"text":"%"}]}',\
+				'{"translate":"dsc.defense_level","with":[-20],"italic":false,"color":"dark_purple"}'\
 			],\
 			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier.special","italic":false,"color":"white"}]}',\
 			"minecraft:hide_additional_tooltip":{},\
@@ -141,7 +140,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			"minecraft:custom_model_data":1000003,\
 			"minecraft:custom_data":\
 			{\
-				speical_skill:1b,\
+				special_skill:1b,\
 				deep_breathe:1b\
 			}\
 		}\
@@ -173,10 +172,9 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			[\
 				'{"translate":"dsc.defense_skill","italic":false,"color":"gray"}',\
 				'{"translate":"chr.rabbit_soldier.defense.1","italic":false,"color":"white"}',\
-				'{"translate":"chr.rabbit_soldier.defense.2","italic":false,"color":"white"}',\
-				'{"translate":"dsc.duration","with":[3.0],"italic":false,"color":"green"}',\
-				'{"translate":"dsc.defense","with":[6],"italic":false,"color":"blue"}',\
-				'{"translate":"dsc.multiple","with":[10.0],"italic":false,"color":"dark_purple","extra":[{"text":"%"}]}',\
+				'{"translate":"chr.rabbit_soldier.defense.2","with":[{"text":"\\uF004","font":"minecraft:effects"}],"italic":false,"color":"white"}',\
+				'{"translate":"dsc.duration","with":[0.5],"italic":false,"color":"green"}',\
+				'{"translate":"dsc.base_cost","with":[20.0],"italic":false,"color":"dark_purple","extra":[{"text":"%"}]}',\
 				'{"translate":"dsc.offhand","italic":false,"color":"aqua"}'\
 			],\
 			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier.defense","italic":false,"color":"white"}]}',\
@@ -190,7 +188,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			"minecraft:custom_data":\
 			{\
 				defense_skill:1b,\
-				dodge:1b,\
+				dodge_rabbit:1b,\
 				offhand_item:1b\
 			}\
 		}\
@@ -266,13 +264,12 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			},\
 			"minecraft:lore":\
 			[\
-				'{"text":""}',\
-				'{"translate":"chr.rabbit_soldier.passive.1","italic":false,"color":"white"}',\
-				'{"translate":"chr.rabbit_soldier.passive.2","italic":false,"color":"white"}',\
-				'{"translate":"chr.rabbit_soldier.passive.3","italic":false,"color":"white"}',\
-				'{"translate":"chr.rabbit_soldier.passive.4","italic":false,"color":"white"}',\
-				'{"translate":"dsc.cooldown","with":[30.0],"italic":false,"color":"yellow"}',\
-				'{"translate":"dsc.duration","with":[10.0],"italic":false,"color":"green"}'\
+				'{"translate":"dsc.passive_skill","italic":false,"color":"gray"}',\
+				'{"translate":"chr.rabbit_soldier.passive.1","with":[{"text":"\\uF004","font":"minecraft:effects"}],"italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.passive.2","with":[{"text":"\\uF004","font":"minecraft:effects"}],"italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.passive.3","with":[{"text":"\\uF004","font":"minecraft:effects"}],"italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.passive.4","with":[{"text":"\\uF005","font":"minecraft:effects"}],"italic":false,"color":"white"}',\
+				'{"translate":"dsc.attack_level","with":[+12],"italic":false,"color":"yellow"}'\
 			],\
 			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier.passive","italic":false,"color":"white"}]}',\
 			"minecraft:hide_additional_tooltip":{},\

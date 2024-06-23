@@ -1,5 +1,5 @@
 scoreboard players remove #bullet_speed store 10
-execute at @s if entity @s anchored eyes positioned ^ ^ ^ run function lib_w:skill/bullet/hitcheck
+execute at @s if entity @s anchored eyes positioned ^ ^ ^0.2 run function lib_w:skill/bullet/hitcheck
 execute if entity @s[tag=block_hit] at @s anchored eyes positioned ^ ^ ^0.1 unless block ~ ~ ~ #lib_w:trans run scoreboard players set #bullet_speed store 0
 execute if entity @s[tag=block_hit] at @s anchored eyes positioned ^ ^ ^0.1 unless block ~ ~ ~ #lib_w:trans run function lib_w:skill/bullet/break with entity @s
 execute store result score #bullet x_pos run data get entity @s Pos[0] 10000

@@ -156,7 +156,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			"minecraft:custom_model_data":1000003,\
 			"minecraft:custom_data":\
 			{\
-				speical_skill:1b,\
+				special_skill:1b,\
 				deep_breathe:1b\
 			}\
 		}\
@@ -281,7 +281,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			},\
 			"minecraft:lore":\
 			[\
-				'{"text":""}',\
+				'{"translate":"dsc.passive_skill","italic":false,"color":"gray"}',\
 				'{"translate":"chr.lucy.passive.1","italic":false,"color":"white"}',\
 				'{"translate":"chr.lucy.passive.2","italic":false,"color":"white"}',\
 				'{"translate":"chr.lucy.passive.3","italic":false,"color":"white"}',\

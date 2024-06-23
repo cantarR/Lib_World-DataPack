@@ -51,4 +51,7 @@ scoreboard objectives add x_motion dummy "X MOTION"
 scoreboard objectives add y_motion dummy "Y MOTION"
 scoreboard objectives add z_motion dummy "Z MOTION"
 scoreboard objectives add lifetime dummy "LIFETIME"
+scoreboard objectives add music_timer dummy "MUSIC TIMER"
+scoreboard objectives add selected trigger "SELECTED CHR ID"
+scoreboard objectives add personal trigger "PERSONAL SETTINGS"
 function lib_w:init/scoreboard/scoreboard_const
