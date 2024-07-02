@@ -1,0 +1,10 @@
+execute if score @s player_speed matches 1 run attribute @s minecraft:generic.movement_speed base set 0.12
+execute if score @s player_speed matches 2 run attribute @s minecraft:generic.movement_speed base set 0.13
+execute if score @s player_speed matches 3 run attribute @s minecraft:generic.movement_speed base set 0.14
+execute if score @s player_speed matches 4 run attribute @s minecraft:generic.movement_speed base set 0.15
+execute if score @s player_speed matches 5 run attribute @s minecraft:generic.movement_speed base set 0.16
+execute if score @s player_speed matches 6 run attribute @s minecraft:generic.movement_speed base set 0.17
+execute if score @s player_speed matches 7 run attribute @s minecraft:generic.movement_speed base set 0.18
+execute if score @s player_speed matches 8 run attribute @s minecraft:generic.movement_speed base set 0.19
+execute if score @s player_speed matches 9 run attribute @s minecraft:generic.movement_speed base set 0.20
+execute if score @s player_speed matches 10 run attribute @s minecraft:generic.movement_speed base set 0.21

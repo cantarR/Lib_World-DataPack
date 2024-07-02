@@ -1,0 +1,1 @@
+execute if entity @s[tag=skill_firepower] run function lib_w:skill/fire_power/loop

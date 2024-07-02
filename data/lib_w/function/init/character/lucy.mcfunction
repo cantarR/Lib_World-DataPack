@@ -4,7 +4,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 	defense_level:-2,\
 	magic_max:0,\
 	emotion_efficiency:0.75f,\
-	movement_speed:4.0f,\
+	movement_speed:1.0f,\
 	MainSkill:\
 	{\
 		id:"warped_fungus_on_a_stick",\
@@ -144,6 +144,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 				'{"translate":"chr.lucy.special.2","italic":false,"color":"white"}',\
 				'{"translate":"chr.lucy.special.3","italic":false,"color":"white"}',\
 				'{"translate":"chr.lucy.special.4","italic":false,"color":"white"}',\
+				'{"translate":"dsc.melee.damage","with":[1.5],"italic":false,"color":"red"}',\
 				'{"translate":"dsc.multiple","with":[10.0],"italic":false,"color":"dark_purple","extra":[{"text":"%"}]}'\
 			],\
 			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.lucy.special","italic":false,"color":"white"}]}',\

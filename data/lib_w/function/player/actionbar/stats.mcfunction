@@ -1,5 +1,6 @@
 scoreboard players operation #hud break = @s break
 scoreboard players operation #hud break /= 5 const
+data modify storage lib_w:stats Actionbar append value '{"text":"\\uED85"}'
 execute if score #hud break matches ..1 run data modify storage lib_w:stats Actionbar append value '{"translate":"title.actionbar.break.1","color":"white","font":"minecraft:actionbar"}'
 execute if score #hud break matches 2 run data modify storage lib_w:stats Actionbar append value '{"translate":"title.actionbar.break.2","color":"white","font":"minecraft:actionbar"}'
 execute if score #hud break matches 3 run data modify storage lib_w:stats Actionbar append value '{"translate":"title.actionbar.break.3","color":"white","font":"minecraft:actionbar"}'

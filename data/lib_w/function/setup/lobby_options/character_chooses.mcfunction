@@ -221,7 +221,7 @@ data modify storage lib_w:lobby Chr set value {\
             ],\
             author:"",\
             title:{\
-                raw:'{"text":""}'\
+                raw:'CHARACTER'\
             }\
         }\
     }\

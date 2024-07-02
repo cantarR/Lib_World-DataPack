@@ -1,1 +1,1 @@
-execute if score @s emotion < #cost emotion run tag @s remove emotion_success
+execute unless entity @s[tag=emotion_ready] run tag @s remove emotion_success

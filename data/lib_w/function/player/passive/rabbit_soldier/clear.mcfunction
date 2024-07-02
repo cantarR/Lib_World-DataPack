@@ -1,0 +1,1 @@
+tag @s remove passive_rabbit_soldier

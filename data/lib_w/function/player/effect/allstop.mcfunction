@@ -1,0 +1,1 @@
+execute if entity @s[tag=effect_defensing] run function lib_w:player/effect/defensing/clear

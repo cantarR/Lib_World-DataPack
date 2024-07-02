@@ -4,7 +4,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 	defense_level:-3,\
 	magic_max:60,\
 	emotion_efficiency:1.25f,\
-	movement_speed:5.0f,\
+	movement_speed:3.0f,\
 	MainSkill:\
 	{\
 		id:"warped_fungus_on_a_stick",\
@@ -141,7 +141,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			"minecraft:custom_data":\
 			{\
 				special_skill:1b,\
-				deep_breathe:1b\
+				rapid_pressing:1b\
 			}\
 		}\
 	},\

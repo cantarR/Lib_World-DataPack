@@ -1,6 +1,6 @@
 scoreboard players operation #player pid = @s pid
-execute as @e[tag=respawnpoint,type=marker] if score @s pid = #player pid run tag @s add spawn_target
-tp @s @e[tag=spawn_target,limit=1,sort=random]
+execute as @e[tag=spawnpoint] if score @s pid = #player pid run tag @s add spawn_target
+tp @s @e[tag=spawn_target,limit=1]
 execute unless entity @e[tag=spawn_target] run tp @s @e[limit=1,tag=lobby_spawn]
 tag @e remove spawn_target
 gamemode adventure @s
