@@ -1,4 +1,4 @@
-clear @s
+clear @s *[!minecraft:custom_data={book:1b}]
 $scoreboard players set #choose chr_id $(id)
 data modify block 512 -48 512 Items set value []
 $data modify block 512 -48 512 Items append from storage lib_w:chr CHR_LIST[{id:$(id)}].MainSkill
@@ -41,3 +41,4 @@ item replace entity @s armor.chest from block 512 -48 512 container.7
 item replace entity @s armor.legs from block 512 -48 512 container.8
 item replace entity @s armor.feet from block 512 -48 512 container.9
 $function lib_w:character/stats {id:$(id)}
+execute if entity @s[tag=admin] run function lib_w:setup/all_books

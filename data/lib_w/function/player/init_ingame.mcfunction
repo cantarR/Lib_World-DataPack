@@ -11,3 +11,4 @@ tag @s remove respawning
 tag @s remove nohurt
 tag @s remove death
 tag @s add ingame
+clear @s written_book[custom_data={book:1b}]

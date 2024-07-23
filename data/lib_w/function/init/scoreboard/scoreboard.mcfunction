@@ -73,4 +73,5 @@ scoreboard objectives add skill_timer_3_3 dummy "SKILL TIMER 3_3"
 scoreboard objectives add last_attacker dummy "LAST ATTACKER"
 scoreboard objectives add last_attacker_timer dummy "LAST ATTACKER TIMER"
 scoreboard objectives add lives dummy "LIVES"
+scoreboard objectives add admin trigger "ADMIN OPTIONS"
 function lib_w:init/scoreboard/scoreboard_const

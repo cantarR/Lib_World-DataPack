@@ -17,13 +17,13 @@ data modify storage lib_w:lobby Chr set value {\
                             "hoverEvent":{\
                                 "action":"show_text",\
                                 "contents":[\
-                                    {"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.lucy.main","italic":false,"color":"white"}]},\
+                                    {"nbt":"CHR_LIST[0].MainSkill.components.minecraft:custom_name","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"dsc.main_skill","italic":false,"color":"gray"},\
+                                    {"nbt":"CHR_LIST[0].MainSkill.components.minecraft:lore[0]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.lucy.main.1","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[0].MainSkill.components.minecraft:lore[1]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.lucy.main.2","italic":false,"color":"white"}\
+                                    {"nbt":"CHR_LIST[0].MainSkill.components.minecraft:lore[2]","storage":"lib_w:chr","interpret":true},\
                                 ]\
                             }\
                         },\
@@ -32,17 +32,17 @@ data modify storage lib_w:lobby Chr set value {\
                             "hoverEvent":{\
                             "action":"show_text",\
                                 "contents":[\
-                                    {"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.lucy.charge","italic":false,"color":"white"}]},\
+                                    {"nbt":"CHR_LIST[0].ChargeSkill.components.minecraft:custom_name","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"dsc.charge_skill","italic":false,"color":"gray"},\
+                                    {"nbt":"CHR_LIST[0].ChargeSkill.components.minecraft:lore[0]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.lucy.charge.1","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[0].ChargeSkill.components.minecraft:lore[1]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.lucy.charge.2","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[0].ChargeSkill.components.minecraft:lore[2]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.lucy.charge.3","with":[{"text":"\\uF001","font":"minecraft:effects"}],"italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[0].ChargeSkill.components.minecraft:lore[3]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.lucy.charge.4","italic":false,"color":"white"}\
+                                    {"nbt":"CHR_LIST[0].ChargeSkill.components.minecraft:lore[4]","storage":"lib_w:chr","interpret":true},\
                                 ]\
                             }\
                         },\
@@ -51,17 +51,17 @@ data modify storage lib_w:lobby Chr set value {\
                             "hoverEvent":{\
                             "action":"show_text",\
                                 "contents":[\
-                                    {"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.lucy.special","italic":false,"color":"white"}]},\
+                                    {"nbt":"CHR_LIST[0].SpecialSkill.components.minecraft:custom_name","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"dsc.special_skill","italic":false,"color":"gray"},\
+                                    {"nbt":"CHR_LIST[0].SpecialSkill.components.minecraft:lore[0]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.lucy.special.1","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[0].SpecialSkill.components.minecraft:lore[1]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.lucy.special.2","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[0].SpecialSkill.components.minecraft:lore[2]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.lucy.special.3","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[0].SpecialSkill.components.minecraft:lore[3]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.lucy.special.4","italic":false,"color":"white"}\
+                                    {"nbt":"CHR_LIST[0].SpecialSkill.components.minecraft:lore[4]","storage":"lib_w:chr","interpret":true},\
                                 ]\
                             }\
                         },\
@@ -70,13 +70,13 @@ data modify storage lib_w:lobby Chr set value {\
                             "hoverEvent":{\
                             "action":"show_text",\
                                 "contents":[\
-                                    {"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.lucy.defense","italic":false,"color":"white"}]},\
+                                    {"nbt":"CHR_LIST[0].DefenseSkill.components.minecraft:custom_name","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"dsc.defense_skill","italic":false,"color":"gray"},\
+                                    {"nbt":"CHR_LIST[0].DefenseSkill.components.minecraft:lore[0]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.lucy.defense.1","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[0].DefenseSkill.components.minecraft:lore[1]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.lucy.defense.2","italic":false,"color":"white"}\
+                                    {"nbt":"CHR_LIST[0].DefenseSkill.components.minecraft:lore[2]","storage":"lib_w:chr","interpret":true},\
                                 ]\
                             }\
                         },\
@@ -85,13 +85,13 @@ data modify storage lib_w:lobby Chr set value {\
                             "hoverEvent":{\
                             "action":"show_text",\
                                 "contents":[\
-                                    {"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.lucy.extra","italic":false,"color":"white"}]},\
+                                    {"nbt":"CHR_LIST[0].ExtraSkill.components.minecraft:custom_name","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"dsc.extra_skill","italic":false,"color":"gray"},\
+                                    {"nbt":"CHR_LIST[0].ExtraSkill.components.minecraft:lore[0]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.lucy.extra.1","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[0].ExtraSkill.components.minecraft:lore[1]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.lucy.extra.2","italic":false,"color":"white"}\
+                                    {"nbt":"CHR_LIST[0].ExtraSkill.components.minecraft:lore[2]","storage":"lib_w:chr","interpret":true},\
                                 ]\
                             }\
                         },\
@@ -100,15 +100,17 @@ data modify storage lib_w:lobby Chr set value {\
                             "hoverEvent":{\
                             "action":"show_text",\
                                 "contents":[\
-                                    {"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.lucy.passive","italic":false,"color":"white"}]},\
+                                    {"nbt":"CHR_LIST[0].ChestItem.components.minecraft:custom_name","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.lucy.passive.1","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[0].ChestItem.components.minecraft:lore[0]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.lucy.passive.2","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[0].ChestItem.components.minecraft:lore[1]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.lucy.passive.3","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[0].ChestItem.components.minecraft:lore[2]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.lucy.passive.4","with":[{"text":"\\uF001","font":"minecraft:effects"}],"italic":false,"color":"white"}\
+                                    {"nbt":"CHR_LIST[0].ChestItem.components.minecraft:lore[3]","storage":"lib_w:chr","interpret":true},\
+                                    {"text":"\\n"},\
+                                    {"nbt":"CHR_LIST[0].ChestItem.components.minecraft:lore[4]","storage":"lib_w:chr","interpret":true},\
                                 ]\
                             }\
                         },\
@@ -133,13 +135,13 @@ data modify storage lib_w:lobby Chr set value {\
                             "hoverEvent":{\
                                 "action":"show_text",\
                                 "contents":[\
-                                    {"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier.main","italic":false,"color":"white"}]},\
+                                    {"nbt":"CHR_LIST[1].MainSkill.components.minecraft:custom_name","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"dsc.main_skill","italic":false,"color":"gray"},\
+                                    {"nbt":"CHR_LIST[1].MainSkill.components.minecraft:lore[0]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.rabbit_soldier.main.1","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[1].MainSkill.components.minecraft:lore[1]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.rabbit_soldier.main.2","italic":false,"color":"white"}\
+                                    {"nbt":"CHR_LIST[1].MainSkill.components.minecraft:lore[2]","storage":"lib_w:chr","interpret":true},\
                                 ]\
                             }\
                         },\
@@ -148,15 +150,15 @@ data modify storage lib_w:lobby Chr set value {\
                             "hoverEvent":{\
                             "action":"show_text",\
                                 "contents":[\
-                                    {"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier.charge","italic":false,"color":"white"}]},\
+                                    {"nbt":"CHR_LIST[1].ChargeSkill.components.minecraft:custom_name","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"dsc.charge_skill","italic":false,"color":"gray"},\
+                                    {"nbt":"CHR_LIST[1].ChargeSkill.components.minecraft:lore[0]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.rabbit_soldier.charge.1","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[1].ChargeSkill.components.minecraft:lore[1]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.rabbit_soldier.charge.2","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[1].ChargeSkill.components.minecraft:lore[2]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.rabbit_soldier.charge.3","with":[{"text":"\\uF001","font":"minecraft:effects"}],"italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[1].ChargeSkill.components.minecraft:lore[3]","storage":"lib_w:chr","interpret":true},\
                                 ]\
                             }\
                         },\
@@ -165,15 +167,15 @@ data modify storage lib_w:lobby Chr set value {\
                             "hoverEvent":{\
                             "action":"show_text",\
                                 "contents":[\
-                                    {"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier.special","italic":false,"color":"white"}]},\
+                                    {"nbt":"CHR_LIST[1].SpecialSkill.components.minecraft:custom_name","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"dsc.special_skill","italic":false,"color":"gray"},\
+                                    {"nbt":"CHR_LIST[1].SpecialSkill.components.minecraft:lore[0]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.rabbit_soldier.special.1","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[1].SpecialSkill.components.minecraft:lore[1]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.rabbit_soldier.special.2","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[1].SpecialSkill.components.minecraft:lore[2]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.rabbit_soldier.special.3","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[1].SpecialSkill.components.minecraft:lore[3]","storage":"lib_w:chr","interpret":true},\
                                 ]\
                             }\
                         },\
@@ -182,13 +184,13 @@ data modify storage lib_w:lobby Chr set value {\
                             "hoverEvent":{\
                             "action":"show_text",\
                                 "contents":[\
-                                    {"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier.defense","italic":false,"color":"white"}]},\
+                                    {"nbt":"CHR_LIST[1].DefenseSkill.components.minecraft:custom_name","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"dsc.defense_skill","italic":false,"color":"gray"},\
+                                    {"nbt":"CHR_LIST[1].DefenseSkill.components.minecraft:lore[0]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.rabbit_soldier.defense.1","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[1].DefenseSkill.components.minecraft:lore[1]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.rabbit_soldier.defense.2","italic":false,"color":"white"}\
+                                    {"nbt":"CHR_LIST[1].DefenseSkill.components.minecraft:lore[2]","storage":"lib_w:chr","interpret":true},\
                                 ]\
                             }\
                         },\
@@ -197,15 +199,15 @@ data modify storage lib_w:lobby Chr set value {\
                             "hoverEvent":{\
                             "action":"show_text",\
                                 "contents":[\
-                                    {"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier.passive","italic":false,"color":"white"}]},\
+                                    {"nbt":"CHR_LIST[1].ChestItem.components.minecraft:custom_name","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.rabbit_soldier.passive.1","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[1].ChestItem.components.minecraft:lore[0]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.rabbit_soldier.passive.2","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[1].ChestItem.components.minecraft:lore[1]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.rabbit_soldier.passive.3","italic":false,"color":"white"},\
+                                    {"nbt":"CHR_LIST[1].ChestItem.components.minecraft:lore[2]","storage":"lib_w:chr","interpret":true},\
                                     {"text":"\\n"},\
-                                    {"translate":"chr.rabbit_soldier.passive.4","with":[{"text":"\\uF001","font":"minecraft:effects"}],"italic":false,"color":"white"}\
+                                    {"nbt":"CHR_LIST[1].ChestItem.components.minecraft:lore[3]","storage":"lib_w:chr","interpret":true},\
                                 ]\
                             }\
                         },\
@@ -223,6 +225,9 @@ data modify storage lib_w:lobby Chr set value {\
             title:{\
                 raw:'CHARACTER'\
             }\
+        },\
+        "minecraft:custom_data":{\
+            book:1b\
         }\
     }\
 }
