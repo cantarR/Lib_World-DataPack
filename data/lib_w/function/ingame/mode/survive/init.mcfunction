@@ -1,0 +1,1 @@
+execute as @a[tag=ready] run scoreboard players operation @s lives = #lives count

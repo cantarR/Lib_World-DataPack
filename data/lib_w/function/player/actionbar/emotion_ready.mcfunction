@@ -1,0 +1,2 @@
+data modify storage lib_w:stats Actionbar append value '{"text":"\\uEF02","font":"minecraft:actionbar","color":"red","bold":true}'
+data modify storage lib_w:stats Actionbar append value '{"text":"\\uEF03","font":"minecraft:actionbar","color":"red","bold":true}'

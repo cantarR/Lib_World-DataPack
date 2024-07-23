@@ -1,0 +1,2 @@
+data modify storage lib_w:stats Effects append value '{"text":"\\uF001"}'
+data modify storage lib_w:stats Effects append value '{"score":{"objective":"break","name":"@s"},"font":"minecraft:default","color":"white","bold":true}'

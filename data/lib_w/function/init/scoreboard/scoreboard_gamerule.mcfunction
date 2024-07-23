@@ -1,11 +1,9 @@
 scoreboard players set #break_level_limit level 5
 scoreboard players set #gift_limit count 0
-scoreboard players set #player_limit count 16
 scoreboard players set #team_limit count 8
 scoreboard players set #kill_bonus count 0
 scoreboard players set #break_rule count 0
-scoreboard players set #knockback_rule count 0
-scoreboard players set #spawn_rule count 0
 scoreboard players set #summon_props bool 0
 scoreboard players set #default_power power 100
 scoreboard players set #default_resistance resistance 100
+scoreboard players set #lives count 3

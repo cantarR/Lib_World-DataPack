@@ -1,7 +1,7 @@
 data modify storage lib_w:chr CHR_LIST append value {\
 	id:2,\
-	attack_level:-3,\
-	defense_level:-3,\
+	attack_level:+3,\
+	defense_level:-2,\
 	magic_max:60,\
 	emotion_efficiency:1.25f,\
 	movement_speed:3.0f,\
