@@ -81,7 +81,8 @@ data modify storage lib_w:lobby Settings set value {\
         },\
         "minecraft:custom_data":{\
             book:1b\
-        }\
+        },\
+        "minecraft:enchantment_glint_override":false\
     }\
 }
 data modify block ~ ~ ~ Book set from storage lib_w:lobby Settings
@@ -94,10 +95,82 @@ data modify storage lib_w:lobby Map set value {\
             pages:[\
                 {\
                     raw:'[\
+                        {"translate":"lobby.option.map.1","bold":true,"color":"gray"},\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.map.1.event","italic":true},\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.map.size","bold":true},\
+                        {"translate":"lobby.option.map.size.1","bold":true},\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.map.choose","bold":true,"color":"green","clickEvent":{\
+                                "action":"run_command",\
+                                "value":"/trigger admin set 101"\
+                            }\
+                        },\
                     ]'\
                 },\
                 {\
                     raw:'[\
+                        {"translate":"lobby.option.map.2","bold":true,"color":"gray"},\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.map.2.event","italic":true},\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.map.size","bold":true},\
+                        {"translate":"lobby.option.map.size.2","bold":true},\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.map.choose","bold":true,"color":"green","clickEvent":{\
+                                "action":"run_command",\
+                                "value":"/trigger admin set 102"\
+                            }\
+                        },\
+                    ]'\
+                },\
+                {\
+                    raw:'[\
+                        {"translate":"lobby.option.map.3","bold":true,"color":"gray"},\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.map.3.event","italic":true},\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.map.size","bold":true},\
+                        {"translate":"lobby.option.map.size.3","bold":true},\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.map.choose","bold":true,"color":"green","clickEvent":{\
+                                "action":"run_command",\
+                                "value":"/trigger admin set 103"\
+                            }\
+                        },\
+                    ]'\
+                },\
+                {\
+                    raw:'[\
+                        {"translate":"lobby.option.map.4","bold":true,"color":"gray"},\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.map.4.event","italic":true},\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.map.size","bold":true},\
+                        {"translate":"lobby.option.map.size.0","bold":true},\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.map.choose","bold":true,"color":"green","clickEvent":{\
+                                "action":"run_command",\
+                                "value":"/trigger admin set 104"\
+                            }\
+                        },\
+                    ]'\
+                },\
+                {\
+                    raw:'[\
+                        {"translate":"lobby.option.map.5","bold":true,"color":"gray"},\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.map.5.event","italic":true},\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.map.size","bold":true},\
+                        {"translate":"lobby.option.map.size.2","bold":true},\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.map.choose","bold":true,"color":"green","clickEvent":{\
+                                "action":"run_command",\
+                                "value":"/trigger admin set 105"\
+                            }\
+                        },\
                     ]'\
                 },\
             ],\
@@ -108,7 +181,8 @@ data modify storage lib_w:lobby Map set value {\
         },\
         "minecraft:custom_data":{\
             book:1b\
-        }\
+        },\
+        "minecraft:enchantment_glint_override":false\
     }\
 }
 data modify block ^4 ^ ^ Book set from storage lib_w:lobby Map

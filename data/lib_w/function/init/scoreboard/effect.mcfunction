@@ -1,1 +1,3 @@
 scoreboard objectives add effect_displacement_timer dummy
+scoreboard objectives add effect_defensing_timer dummy
+scoreboard objectives add effect_noaction_timer dummy

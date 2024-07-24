@@ -17,12 +17,13 @@ data modify storage lib_w:lobby Player set value {\
             ],\
             author:"",\
             title:{\
-                raw:'PLAYER SETTINGS'\
+                raw:'PLAYER_SETTINGS'\
             }\
         },\
         "minecraft:custom_data":{\
             book:1b\
-        }\
+        },\
+        "minecraft:enchantment_glint_override":false\
     }\
 }
 data modify block ~ ~ ~ Book set from storage lib_w:lobby Player

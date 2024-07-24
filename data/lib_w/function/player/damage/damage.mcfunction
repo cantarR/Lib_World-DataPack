@@ -8,6 +8,7 @@ function lib_w:player/damage/damage_trigger
 execute unless score #damage-type count matches -1.. run scoreboard players set #damage-type count 0
 execute if score #damage-type count matches 10 as @a[tag=attacker] at @s run function lib_w:player/melee
 function lib_w:player/damage/trans_to_break_damage
-effect give @s instant_health 1 20
+execute unless entity @s[type=player] run function lib_w:player/damage/not_player
+effect give @s[type=player] instant_health 1 20
 scoreboard players set #damage-type count 0
-execute as @a[tag=attacker,limit=1] at @s run function lib_w:player/cross
+execute as @a[tag=attacker] at @s run function lib_w:player/cross

@@ -18,3 +18,4 @@ tag @s remove moved
 tag @s remove fast_moved
 tag @s remove sneaking
 execute unless score @s pid matches 1.. run function lib_w:player/init
+execute unless entity @s[tag=admin] run scoreboard players reset @s admin

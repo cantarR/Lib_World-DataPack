@@ -228,7 +228,8 @@ data modify storage lib_w:lobby Chr set value {\
         },\
         "minecraft:custom_data":{\
             book:1b\
-        }\
+        },\
+        "minecraft:enchantment_glint_override":false\
     }\
 }
 data modify block ~ ~ ~ Book set from storage lib_w:lobby Chr

@@ -1,1 +1,1 @@
-execute as @a[tag=victim] run function lib_w:player/damage/attack_check
+execute as @e[tag=victim] run function lib_w:player/damage/attack_check

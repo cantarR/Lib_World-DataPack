@@ -1,0 +1,1 @@
+$damage @s $(damage) mob_attack by @e[tag=attacker_bullet,limit=1] from @e[tag=bullet_owner,limit=1]

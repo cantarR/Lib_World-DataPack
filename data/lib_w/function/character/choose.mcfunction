@@ -41,4 +41,4 @@ item replace entity @s armor.chest from block 512 -48 512 container.7
 item replace entity @s armor.legs from block 512 -48 512 container.8
 item replace entity @s armor.feet from block 512 -48 512 container.9
 $function lib_w:character/stats {id:$(id)}
-execute if entity @s[tag=admin] run function lib_w:setup/all_books
+execute if entity @s[tag=admin] unless score #InGame bool matches 1.. run function lib_w:setup/all_books

@@ -1,0 +1,1 @@
+function lib_w:ingame/start_check

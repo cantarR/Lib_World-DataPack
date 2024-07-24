@@ -32,7 +32,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			],\
 			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier.main","italic":false,"color":"white"}]}',\
 			"minecraft:hide_additional_tooltip":{},\
-			"minecraft::enchantment_glint_override":1b,\
+			"minecraft:enchantment_glint_override":false,\
 			"minecraft:enchantments":{\
 				levels:{},\
 				show_in_tooltip:0b\
@@ -84,7 +84,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			],\
 			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier.charge","italic":false,"color":"white"}]}',\
 			"minecraft:hide_additional_tooltip":{},\
-			"minecraft::enchantment_glint_override":1b,\
+			"minecraft:enchantment_glint_override":false,\
 			"minecraft:enchantments":{\
 				levels:{},\
 				show_in_tooltip:0b\
@@ -132,7 +132,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			],\
 			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier.special","italic":false,"color":"white"}]}',\
 			"minecraft:hide_additional_tooltip":{},\
-			"minecraft::enchantment_glint_override":1b,\
+			"minecraft:enchantment_glint_override":false,\
 			"minecraft:enchantments":{\
 				levels:{},\
 				show_in_tooltip:0b\
@@ -179,7 +179,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			],\
 			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier.defense","italic":false,"color":"white"}]}',\
 			"minecraft:hide_additional_tooltip":{},\
-			"minecraft::enchantment_glint_override":1b,\
+			"minecraft:enchantment_glint_override":false,\
 			"minecraft:enchantments":{\
 				levels:{},\
 				show_in_tooltip:0b\
@@ -227,7 +227,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			],\
 			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier","italic":false,"color":"white"}]}',\
 			"minecraft:hide_additional_tooltip":{},\
-			"minecraft::enchantment_glint_override":1b,\
+			"minecraft:enchantment_glint_override":1b,\
 			"minecraft:enchantments":{\
 				levels:{"minecraft:binding_curse":1},\
 				show_in_tooltip:0b\
@@ -273,7 +273,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			],\
 			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier.passive","italic":false,"color":"white"}]}',\
 			"minecraft:hide_additional_tooltip":{},\
-			"minecraft::enchantment_glint_override":1b,\
+			"minecraft:enchantment_glint_override":false,\
 			"minecraft:enchantments":{\
 				levels:{"minecraft:binding_curse":1},\
 				show_in_tooltip:0b\
@@ -318,7 +318,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			],\
 			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"dsc.gift","italic":false,"color":"white"}]}',\
 			"minecraft:hide_additional_tooltip":{},\
-			"minecraft::enchantment_glint_override":1b,\
+			"minecraft:enchantment_glint_override":false,\
 			"minecraft:enchantments":{\
 				levels:{"minecraft:binding_curse":1},\
 				show_in_tooltip:0b\
@@ -364,7 +364,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			],\
 			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"dsc.stats","italic":false,"color":"white"}]}',\
 			"minecraft:hide_additional_tooltip":{},\
-			"minecraft::enchantment_glint_override":1b,\
+			"minecraft:enchantment_glint_override":false,\
 			"minecraft:enchantments":{\
 				levels:{"minecraft:binding_curse":1,"minecraft:feather_falling":4},\
 				show_in_tooltip:0b\

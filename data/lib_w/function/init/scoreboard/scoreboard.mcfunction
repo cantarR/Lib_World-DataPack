@@ -60,7 +60,6 @@ scoreboard objectives add music_level dummy "MUSIC LEVEL"
 scoreboard objectives add music_timer dummy "MUSIC TIMER"
 scoreboard objectives add selected trigger "SELECTED CHR ID"
 scoreboard objectives add personal trigger "PERSONAL SETTINGS"
-scoreboard objectives add effect_defensing_timer dummy
 scoreboard objectives add skill_timer_1 dummy "SKILL TIMER 1"
 scoreboard objectives add skill_timer_1_2 dummy "SKILL TIMER 1_2"
 scoreboard objectives add skill_timer_1_3 dummy "SKILL TIMER 1_3"
