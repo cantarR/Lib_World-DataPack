@@ -1,5 +1,1 @@
-{
-	"values": [
-		"lib_w:main_loop"
-	]
-}
+{"values":["animated_java:global/on_tick","lib_w:main_loop"]}

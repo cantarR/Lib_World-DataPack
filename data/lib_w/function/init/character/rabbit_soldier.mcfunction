@@ -137,7 +137,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 				levels:{},\
 				show_in_tooltip:0b\
 			},\
-			"minecraft:custom_model_data":1000003,\
+			"minecraft:custom_model_data":1000103,\
 			"minecraft:custom_data":\
 			{\
 				special_skill:1b,\
@@ -184,7 +184,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 				levels:{},\
 				show_in_tooltip:0b\
 			},\
-			"minecraft:custom_model_data":2000001,\
+			"minecraft:custom_model_data":1000104,\
 			"minecraft:custom_data":\
 			{\
 				defense_skill:1b,\
@@ -232,7 +232,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 				levels:{"minecraft:binding_curse":1},\
 				show_in_tooltip:0b\
 			},\
-			"minecraft:custom_model_data":1000004,\
+			"minecraft:custom_model_data":2,\
 			"minecraft:custom_data":\
 			{\
 				chr_head:1b\

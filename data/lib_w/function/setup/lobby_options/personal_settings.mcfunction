@@ -12,22 +12,22 @@ data modify storage lib_w:lobby Personal set value {\
                         {"text":"\\n"},\
                         {"translate":"lobby.option.personal.p.0","bold":true,"color":"green","clickEvent":{\
                                 "action":"run_command",\
-                                "value":"/trigger admin set 201"\
+                                "value":"/trigger personal set 11"\
                             }\
                         },\
                         {"translate":"lobby.option.personal.p.1","bold":true,"color":"green","clickEvent":{\
                                 "action":"run_command",\
-                                "value":"/trigger admin set 202"\
+                                "value":"/trigger personal set 12"\
                             }\
                         },\
                         {"translate":"lobby.option.personal.p.2","bold":true,"color":"green","clickEvent":{\
                                 "action":"run_command",\
-                                "value":"/trigger admin set 203"\
+                                "value":"/trigger personal set 13"\
                             }\
                         },\
                         {"translate":"lobby.option.personal.p.3","bold":true,"color":"green","clickEvent":{\
                                 "action":"run_command",\
-                                "value":"/trigger admin set 204"\
+                                "value":"/trigger personal set 14"\
                             }\
                         },\
                         {"text":"\\n\\n"},\
@@ -35,12 +35,12 @@ data modify storage lib_w:lobby Personal set value {\
                         {"text":"\\n"},\
                         {"translate":"lobby.option.personal.g.0","bold":true,"color":"green","clickEvent":{\
                                 "action":"run_command",\
-                                "value":"/trigger admin set 211"\
+                                "value":"/trigger personal set 21"\
                             }\
                         },\
                         {"translate":"lobby.option.personal.g.1","bold":true,"color":"green","clickEvent":{\
                                 "action":"run_command",\
-                                "value":"/trigger admin set 212"\
+                                "value":"/trigger personal set 22"\
                             }\
                         },\
                         {"text":"\\n\\n"},\
@@ -48,12 +48,12 @@ data modify storage lib_w:lobby Personal set value {\
                         {"text":"\\n"},\
                         {"translate":"lobby.option.personal.c.0","bold":true,"color":"green","clickEvent":{\
                                 "action":"run_command",\
-                                "value":"/trigger admin set 221"\
+                                "value":"/trigger personal set 31"\
                             }\
                         },\
                         {"translate":"lobby.option.personal.c.1","bold":true,"color":"green","clickEvent":{\
                                 "action":"run_command",\
-                                "value":"/trigger admin set 222"\
+                                "value":"/trigger personal set 32"\
                             }\
                         },\
                     ]'\

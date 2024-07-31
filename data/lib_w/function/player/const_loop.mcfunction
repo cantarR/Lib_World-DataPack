@@ -5,6 +5,7 @@ function lib_w:player/right_click
 function lib_w:player/attack_limit
 function lib_w:player/offhand
 function lib_w:system/music/timer
+function lib_w:player/damage/void
 execute if score @s selected matches 1.. run function lib_w:player/select_trigger
 execute if score @s personal matches 1.. run function lib_w:player/personal_trigger
 execute if score @s[tag=admin] admin matches 1.. run function lib_w:player/option_trigger
@@ -19,3 +20,4 @@ tag @s remove fast_moved
 tag @s remove sneaking
 execute unless score @s pid matches 1.. run function lib_w:player/init
 execute unless entity @s[tag=admin] run scoreboard players reset @s admin
+execute if entity @s[tag=ready] run title @s actionbar {"translate":"title.actionbar.lobby.ready","color":"gold"}

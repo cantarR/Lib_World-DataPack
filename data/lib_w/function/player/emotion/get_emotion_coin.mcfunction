@@ -1,8 +1,5 @@
 scoreboard players operation @s emotion -= #max emotion
-execute store result score #random store run random value 1..100
-scoreboard players operation #random store += @s emotion_efficiency
-execute if score #random store matches 101.. run scoreboard players add @s emotion_coin_0 1
-scoreboard players reset #random store
+scoreboard players add @s emotion_coin_0 1
 scoreboard players operation #emotion store = @s emotion_efficiency
 scoreboard players remove #emotion store 100
 execute store result score #random store run random value 1..100

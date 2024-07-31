@@ -8,12 +8,94 @@ data modify storage lib_w:lobby Player set value {\
             pages:[\
                 {\
                     raw:'[\
+                        {"translate":"lobby.option.player.random_team","bold":false,"color":"green","clickEvent":{\
+                                "action":"run_command",\
+                                "value":"/function lib_w:ingame/team/all_random"\
+                            }\
+                        },\
                     ]'\
                 },\
                 {\
                     raw:'[\
+                        {"translate":"lobby.option.player.break","bold":true,"color":"white","with":[{"score":{"objective":"level","name":"#break_level_limit"}}]},\
+                        {"text":"\\n"},\
+                        {"translate":"lobby.option.add","bold":false,"color":"green","clickEvent":{\
+                                "action":"run_command",\
+                                "value":"/trigger admin set 301"\
+                            }\
+                        },\
+                        {"translate":"lobby.option.remove","bold":false,"color":"red","clickEvent":{\
+                                "action":"run_command",\
+                                "value":"/trigger admin set 302"\
+                            }\
+                        },\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.player.lives","bold":true,"color":"white","with":[{"score":{"objective":"count","name":"#lives"}}]},\
+                        {"text":"\\n"},\
+                        {"translate":"lobby.option.add","bold":false,"color":"green","clickEvent":{\
+                                "action":"run_command",\
+                                "value":"/trigger admin set 311"\
+                            }\
+                        },\
+                        {"translate":"lobby.option.remove","bold":false,"color":"red","clickEvent":{\
+                                "action":"run_command",\
+                                "value":"/trigger admin set 312"\
+                            }\
+                        },\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.player.power","bold":true,"color":"white","with":[{"score":{"objective":"power","name":"#default_power"}},{"text":"%"}]},\
+                        {"text":"\\n"},\
+                        {"translate":"lobby.option.add","bold":false,"color":"green","clickEvent":{\
+                                "action":"run_command",\
+                                "value":"/trigger admin set 321"\
+                            }\
+                        },\
+                        {"translate":"lobby.option.remove","bold":false,"color":"red","clickEvent":{\
+                                "action":"run_command",\
+                                "value":"/trigger admin set 322"\
+                            }\
+                        },\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.player.resistance","bold":true,"color":"white","with":[{"score":{"objective":"resistance","name":"#default_resistance"}},{"text":"%"}]},\
+                        {"text":"\\n"},\
+                        {"translate":"lobby.option.add","bold":false,"color":"green","clickEvent":{\
+                                "action":"run_command",\
+                                "value":"/trigger admin set 331"\
+                            }\
+                        },\
+                        {"translate":"lobby.option.remove","bold":false,"color":"red","clickEvent":{\
+                                "action":"run_command",\
+                                "value":"/trigger admin set 332"\
+                            }\
+                        },\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.player.gift","bold":true,"color":"white","with":[{"score":{"objective":"count","name":"#gift_limit"}}]},\
+                        {"text":"\\n"},\
+                        {"translate":"lobby.option.add","bold":false,"color":"green","clickEvent":{\
+                                "action":"run_command",\
+                                "value":"/trigger admin set 341"\
+                            }\
+                        },\
+                        {"translate":"lobby.option.remove","bold":false,"color":"red","clickEvent":{\
+                                "action":"run_command",\
+                                "value":"/trigger admin set 342"\
+                            }\
+                        },\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.player.team","bold":true,"color":"white","with":[{"score":{"objective":"count","name":"#team_limit"}}]},\
+                        {"text":"\\n"},\
+                        {"translate":"lobby.option.add","bold":false,"color":"green","clickEvent":{\
+                                "action":"run_command",\
+                                "value":"/trigger admin set 351"\
+                            }\
+                        },\
+                        {"translate":"lobby.option.remove","bold":false,"color":"red","clickEvent":{\
+                                "action":"run_command",\
+                                "value":"/trigger admin set 352"\
+                            }\
+                        },\
                     ]'\
-                },\
+                }\
             ],\
             author:"",\
             title:{\

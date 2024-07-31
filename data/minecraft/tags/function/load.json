@@ -1,6 +1,1 @@
-{
-	"values": [
-		"lib_w:load",
-		"lib_w:init"
-	]
-}
+{"values":["animated_java:global/on_load","animated_java:global/internal/gu/load","lib_w:load","lib_w:init"]}

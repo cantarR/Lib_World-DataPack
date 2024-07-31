@@ -10,5 +10,5 @@ tag @s remove nohurt
 execute as @e[tag=corpse_body] if score @s pid = #player pid at @s run particle soul ~ ~1 ~ 0 0.5 0 0.1 128
 execute as @e[tag=corpse_weapon] if score @s pid = #player pid run kill @s
 execute as @e[tag=corpse_body] if score @s pid = #player pid run kill @s
-function lib_w:player/init_ingame
+execute if score #InGame bool matches 1.. run function lib_w:player/init_ingame
 execute at @s run particle minecraft:totem_of_undying ~ ~ ~ 0.5 1 0.5 0 64

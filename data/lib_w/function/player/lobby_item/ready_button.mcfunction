@@ -1,1 +1,0 @@
-execute unless data entity @s Inventory[{components:{custom_data:{ready_button:1b}}}] run give @s warped_fungus_on_a_stick

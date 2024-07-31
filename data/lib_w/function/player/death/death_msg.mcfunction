@@ -5,5 +5,5 @@ execute if score #damage-type count matches 3 run tellraw @a [{"translate":"sys.
 execute if score #damage-type count matches 4 run tellraw @a [{"translate":"sys.msg"},{"translate":"sys.msg.death.4","color":"white","with":[{"selector":"@s"},{"selector":"@a[tag=attacker,limit=1]"}]}]
 execute if score #damage-type count matches 5 run tellraw @a [{"translate":"sys.msg"},{"translate":"sys.msg.death.5","color":"white","with":[{"selector":"@s"},{"selector":"@a[tag=attacker,limit=1]"}]}]
 execute if score #damage-type count matches 6 unless entity @a[tag=killer] run tellraw @a [{"translate":"sys.msg"},{"translate":"sys.msg.death.6","color":"white","with":[{"selector":"@s"}]}]
-execute if score #damage-type count matches 6 if entity @a[tag=killer] run tellraw @a [{"translate":"sys.msg"},{"translate":"sys.msg.death.6.p","color":"white","with":[{"selector":"@s"},{"selector":"@a[tag=attacker,limit=1]"}]}]
+execute if score #damage-type count matches 6 if entity @a[tag=killer] run tellraw @a [{"translate":"sys.msg"},{"translate":"sys.msg.death.6.p","color":"white","with":[{"selector":"@s"},{"selector":"@a[tag=killer,limit=1]"}]}]
 execute if score #damage-type count matches 10.. run tellraw @a [{"translate":"sys.msg"},{"translate":"sys.msg.death.0","color":"white","with":[{"selector":"@s"},{"selector":"@a[tag=attacker]"},{"selector":"@e[tag=attacker_bullet,limit=1]"}]}]

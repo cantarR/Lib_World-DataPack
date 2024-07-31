@@ -65,6 +65,8 @@ scoreboard players set 127 const 127
 scoreboard players set 128 const 128
 scoreboard players set 129 const 129
 scoreboard players set 130 const 130
+scoreboard players set 140 const 140
+scoreboard players set 150 const 150
 scoreboard players set 200 const 200
 scoreboard players set 300 const 300
 scoreboard players set 400 const 400

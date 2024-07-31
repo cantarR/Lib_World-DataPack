@@ -1,4 +1,5 @@
-clear @s *[!minecraft:custom_data={book:1b}]
+function lib_w:init/character/main
+clear @s *[!minecraft:custom_data~{book:1b},!minecraft:custom_data~{lobby_item:1b}]
 $scoreboard players set #choose chr_id $(id)
 data modify block 512 -48 512 Items set value []
 $data modify block 512 -48 512 Items append from storage lib_w:chr CHR_LIST[{id:$(id)}].MainSkill
