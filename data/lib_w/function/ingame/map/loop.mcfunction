@@ -1,0 +1,1 @@
+execute if score #GameMap count matches 0 run function lib_w:ingame/map/backstreet/loop

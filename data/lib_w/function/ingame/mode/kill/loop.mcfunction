@@ -1,0 +1,1 @@
+execute as @a if score #winner bool matches 0 run function lib_w:ingame/mode/kill/winner_check

@@ -13,3 +13,4 @@ scoreboard players set @s charge_speed 100
 scoreboard players operation @s power = #default_power power
 scoreboard players operation @s resistance = #default_resistance resistance
 scoreboard players set @s acp 100
+scoreboard players reset @s kill

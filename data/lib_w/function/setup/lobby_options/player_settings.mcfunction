@@ -81,7 +81,10 @@ data modify storage lib_w:lobby Player set value {\
                                 "value":"/trigger admin set 342"\
                             }\
                         },\
-                        {"text":"\\n\\n"},\
+                    ]'\
+                },\
+                {\
+                    raw:'[\
                         {"translate":"lobby.option.player.team","bold":true,"color":"white","with":[{"score":{"objective":"count","name":"#team_limit"}}]},\
                         {"text":"\\n"},\
                         {"translate":"lobby.option.add","bold":false,"color":"green","clickEvent":{\

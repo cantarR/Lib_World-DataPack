@@ -1,1 +1,1 @@
-execute unless entity @a[tag=winner] run function lib_w:ingame/mode/survive/winner_check
+execute if score #winner bool matches 0 run function lib_w:ingame/mode/survive/winner_check

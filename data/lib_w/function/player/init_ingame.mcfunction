@@ -8,6 +8,8 @@ function lib_w:ingame/team/give_tid
 function lib_w:system/music/stop
 gamemode adventure @s
 scoreboard players set @s ingame_timer 0
+scoreboard players reset @s last_attacker
+scoreboard players reset @s last_attacker_timer
 tag @s remove respawning
 tag @s remove nohurt
 tag @s remove death

@@ -76,7 +76,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			[\
 				'{"translate":"dsc.charge_skill","italic":false,"color":"gray"}',\
 				'{"translate":"chr.rabbit_soldier.charge.1","italic":false,"color":"white"}',\
-				'{"translate":"chr.rabbit_soldier.charge.2","with":[{"text":"\\uF004","font":"minecraft:effects"}],"italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.charge.2","italic":false,"color":"white"}',\
 				'{"translate":"chr.rabbit_soldier.charge.3","italic":false,"color":"white"}',\
 				'{"translate":"dsc.charge","with":[5.0],"italic":false,"color":"gold"}',\
                 '{"translate":"dsc.charge_time","with":[1.0],"italic":false,"color":"gold"}',\
@@ -125,8 +125,8 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			[\
 				'{"translate":"dsc.special_skill","italic":false,"color":"gray"}',\
 				'{"translate":"chr.rabbit_soldier.special.1","italic":false,"color":"white"}',\
-				'{"translate":"chr.rabbit_soldier.special.2","with":[{"text":"\\uF004","font":"minecraft:effects"},{"text":"\\uF004","font":"minecraft:effects"}],"italic":false,"color":"white"}',\
-				'{"translate":"chr.rabbit_soldier.special.3","with":[{"text":"\\uF005","font":"minecraft:effects"}],"italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.special.2","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.special.3","italic":false,"color":"white"}',\
 				'{"translate":"dsc.defense","with":[-10.0],"italic":false,"color":"dark_purple","extra":[{"text":"%"}]}',\
 				'{"translate":"dsc.defense_level","with":[-20],"italic":false,"color":"dark_purple"}'\
 			],\
@@ -172,7 +172,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			[\
 				'{"translate":"dsc.defense_skill","italic":false,"color":"gray"}',\
 				'{"translate":"chr.rabbit_soldier.defense.1","italic":false,"color":"white"}',\
-				'{"translate":"chr.rabbit_soldier.defense.2","with":[{"text":"\\uF004","font":"minecraft:effects"}],"italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.defense.2","italic":false,"color":"white"}',\
 				'{"translate":"dsc.duration","with":[0.5],"italic":false,"color":"green"}',\
 				'{"translate":"dsc.base_cost","with":[20.0],"italic":false,"color":"dark_purple","extra":[{"text":"%"}]}',\
 				'{"translate":"dsc.offhand","italic":false,"color":"aqua"}'\
@@ -227,7 +227,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			],\
 			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier","italic":false,"color":"white"}]}',\
 			"minecraft:hide_additional_tooltip":{},\
-			"minecraft:enchantment_glint_override":1b,\
+			"minecraft:enchantment_glint_override":0b,\
 			"minecraft:enchantments":{\
 				levels:{"minecraft:binding_curse":1},\
 				show_in_tooltip:0b\
@@ -241,7 +241,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 	},\
 	ChestItem:\
 	{\
-		id:"leather_chestplate",\
+		id:"netherite_chestplate",\
 		count:1,\
 		components:\
 		{\
@@ -265,10 +265,10 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			"minecraft:lore":\
 			[\
 				'{"translate":"dsc.passive_skill","italic":false,"color":"gray"}',\
-				'{"translate":"chr.rabbit_soldier.passive.1","with":[{"text":"\\uF004","font":"minecraft:effects"}],"italic":false,"color":"white"}',\
-				'{"translate":"chr.rabbit_soldier.passive.2","with":[{"text":"\\uF004","font":"minecraft:effects"}],"italic":false,"color":"white"}',\
-				'{"translate":"chr.rabbit_soldier.passive.3","with":[{"text":"\\uF004","font":"minecraft:effects"}],"italic":false,"color":"white"}',\
-				'{"translate":"chr.rabbit_soldier.passive.4","with":[{"text":"\\uF005","font":"minecraft:effects"}],"italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.passive.1","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.passive.2","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.passive.3","italic":false,"color":"white"}',\
+				'{"translate":"chr.rabbit_soldier.passive.4","italic":false,"color":"white"}',\
 				'{"translate":"dsc.attack_level","with":[+12],"italic":false,"color":"yellow"}'\
 			],\
 			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"chr.rabbit_soldier.passive","italic":false,"color":"white"}]}',\
@@ -286,12 +286,17 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			{\
 				chr_chest:1b,\
 				passive:"rabbit_soldier"\
+			},\
+			"minecraft:trim":{\
+				material:"minecraft:gold",\
+				pattern:"minecraft:bolt",\
+				show_in_tooltip:0b\
 			}\
 		}\
 	},\
 	LegItem:\
 	{\
-		id:"leather_leggings",\
+		id:"netherite_leggings",\
 		count:1,\
 		components:\
 		{\
@@ -330,12 +335,17 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			"minecraft:custom_data":\
 			{\
 				chr_leg:1b\
+			},\
+			"minecraft:trim":{\
+				material:"minecraft:gold",\
+				pattern:"minecraft:bolt",\
+				show_in_tooltip:0b\
 			}\
 		}\
 	},\
 	FeetItem:\
 	{\
-		id:"leather_boots",\
+		id:"netherite_boots",\
 		count:1,\
 		components:\
 		{\
@@ -376,6 +386,11 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			"minecraft:custom_data":\
 			{\
 				chr_boots:1b\
+			},\
+			"minecraft:trim":{\
+				material:"minecraft:gold",\
+				pattern:"minecraft:bolt",\
+				show_in_tooltip:0b\
 			}\
 		}\
 	},\

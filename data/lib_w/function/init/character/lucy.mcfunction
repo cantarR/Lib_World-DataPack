@@ -92,7 +92,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 				'{"translate":"dsc.charge_skill","italic":false,"color":"gray"}',\
 				'{"translate":"chr.lucy.charge.1","italic":false,"color":"white"}',\
 				'{"translate":"chr.lucy.charge.2","italic":false,"color":"white"}',\
-				'{"translate":"chr.lucy.charge.3","with":[{"text":"\\uF001","font":"minecraft:effects"}],"italic":false,"color":"white"}',\
+				'{"translate":"chr.lucy.charge.3","italic":false,"color":"white"}',\
 				'{"translate":"chr.lucy.charge.4","italic":false,"color":"white"}',\
 				'{"translate":"dsc.charge","with":[8.0],"italic":false,"color":"gold"}',\
 				'{"translate":"dsc.duration","with":[3.0],"italic":false,"color":"green"}',\
@@ -265,7 +265,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 		{\
 			"minecraft:dyed_color":\
 			{\
-				show_in_tooltip:0b,rgb:10512310\
+				show_in_tooltip:0b,rgb:16756425\
 			},\
 			"minecraft:attribute_modifiers":\
 			{\
@@ -286,7 +286,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 				'{"translate":"chr.lucy.passive.1","italic":false,"color":"white"}',\
 				'{"translate":"chr.lucy.passive.2","italic":false,"color":"white"}',\
 				'{"translate":"chr.lucy.passive.3","italic":false,"color":"white"}',\
-				'{"translate":"chr.lucy.passive.4","with":[{"text":"\\uF001","font":"minecraft:effects"}],"italic":false,"color":"white"}',\
+				'{"translate":"chr.lucy.passive.4","italic":false,"color":"white"}',\
 				'{"translate":"dsc.cooldown","with":[30.0],"italic":false,"color":"yellow"}',\
 				'{"translate":"dsc.duration","with":[10.0],"italic":false,"color":"green"}',\
 				'{"translate":"dsc.multiple","with":[10.0],"italic":false,"color":"dark_purple","extra":[{"text":"%"}]}'\
@@ -317,7 +317,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 		{\
 			"minecraft:dyed_color":\
 			{\
-				show_in_tooltip:0b,rgb:10511680\
+				show_in_tooltip:0b,rgb:274258\
 			},\
 			"minecraft:attribute_modifiers":\
 			{\
@@ -361,7 +361,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 		{\
 			"minecraft:dyed_color":\
 			{\
-				show_in_tooltip:0b,rgb:10512310\
+				show_in_tooltip:0b,rgb:15446434\
 			},\
 			"minecraft:attribute_modifiers":\
 			{\
