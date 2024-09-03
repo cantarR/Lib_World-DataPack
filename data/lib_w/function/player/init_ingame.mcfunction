@@ -1,8 +1,9 @@
 function lib_w:player/default_stats
+execute store result storage lib_w:var id int 1 run scoreboard players get @s chr_id
+function lib_w:character/stats with storage lib_w:var
 function lib_w:player/default_effect
 function lib_w:player/effect/allstop
 function lib_w:skill/allstop
-function lib_w:player/passive/init
 function lib_w:player/infight/outfight
 function lib_w:ingame/team/give_tid
 function lib_w:system/music/stop

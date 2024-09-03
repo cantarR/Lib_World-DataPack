@@ -1,6 +1,5 @@
 execute if entity @s[tag=ingame] run function lib_w:player/infight/main_loop
 execute if entity @s[tag=ingame] run function lib_w:player/actionbar/main
-execute if entity @s[tag=ingame] run function lib_w:player/bossbar/effect/main
 execute if entity @s[tag=ingame] run function lib_w:player/effect/loop
 execute if entity @s[tag=ingame] run function lib_w:player/passive/loop
 execute if entity @s[tag=ingame] run function lib_w:skill/loop

@@ -1,1 +1,2 @@
 scoreboard objectives add passive_lucy_timer dummy
+scoreboard objectives add passive_rabbit_bullet dummy

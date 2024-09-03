@@ -4,7 +4,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 	defense_level:-2,\
 	magic_max:60,\
 	emotion_efficiency:1.25f,\
-	movement_speed:3.0f,\
+	movement_speed:2.0f,\
 	MainSkill:\
 	{\
 		id:"warped_fungus_on_a_stick",\
@@ -370,7 +370,7 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			[\
 				'{"translate":"dsc.attack_level","with":[+3],"italic":false,"color":"red"}',\
 				'{"translate":"dsc.defense_level","with":[-2],"italic":false,"color":"blue"}',\
-				'{"translate":"dsc.emotion","with":[0.75],"italic":false,"color":"light_purple"}'\
+				'{"translate":"dsc.emotion","with":[1.25],"italic":false,"color":"light_purple"}'\
 			],\
 			"minecraft:custom_name":'{"text":"","color":"yellow","bold":true,"extra":[{"translate":"dsc.stats","italic":false,"color":"white"}]}',\
 			"minecraft:hide_additional_tooltip":{},\

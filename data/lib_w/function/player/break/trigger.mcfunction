@@ -1,0 +1,1 @@
+execute if entity @s[tag=passive_rabbit_soldier] run function lib_w:player/passive/rabbit_soldier/break

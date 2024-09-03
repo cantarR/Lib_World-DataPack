@@ -16,4 +16,5 @@ execute if score @s break >= @s breakmax run function lib_w:player/break/levelup
 execute at @s run playsound player.break player @a ~ ~ ~ 1 1
 execute at @s run particle minecraft:gust_emitter_small ~ ~1 ~ 0 0.5 0 10 1
 scoreboard players remove @s acp 100
+function lib_w:player/break/trigger
 function lib_w:player/acp/change

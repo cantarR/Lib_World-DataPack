@@ -75,3 +75,5 @@ scoreboard objectives add lives dummy "LIVES"
 scoreboard objectives add admin trigger "ADMIN OPTIONS"
 scoreboard objectives add kill dummy "KILL"
 function lib_w:init/scoreboard/scoreboard_const
+function lib_w:init/scoreboard/passive
+function lib_w:init/scoreboard/effect

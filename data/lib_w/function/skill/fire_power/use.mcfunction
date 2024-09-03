@@ -1,5 +1,2 @@
-tag @s add skill_firepower
-scoreboard players set @s skill_timer_2 10
-scoreboard players set @s unloadtime 10
-playsound minecraft:chr.rabbit.shot2 player @a ~ ~ ~ 1 1.2
-function lib_w:player/rc/skills/charge/cooldown
+execute if score @s passive_rabbit_bullet matches 0 run function lib_w:skill/fire_power/fail
+execute if score @s passive_rabbit_bullet matches 1.. run function lib_w:skill/fire_power/success

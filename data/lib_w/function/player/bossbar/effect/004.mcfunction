@@ -1,0 +1,2 @@
+data modify storage lib_w:stats Effects append value '{"text":"\\uF004"}'
+data modify storage lib_w:stats Effects append value '{"score":{"objective":"passive_rabbit_bullet","name":"@s"},"font":"minecraft:default","color":"white","bold":true}'

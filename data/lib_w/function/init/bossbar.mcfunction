@@ -1,1 +1,0 @@
-bossbar add effect [{"nbt":"Effects[]","storage":"lib_w:stats","interpret":true,"font":"minecraft:effects2"}]
