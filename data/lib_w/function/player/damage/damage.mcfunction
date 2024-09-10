@@ -6,8 +6,7 @@ execute unless score #damage-type count matches -1.. run scoreboard players set 
 execute if score #damage-type count matches 10 as @a[tag=attacker] at @s run function lib_w:player/melee
 execute unless entity @s[type=player] run function lib_w:player/damage/not_player
 execute store result storage lib_w:var damage float 0.01 run scoreboard players get #damage damage
-function lib_w:player/damage/orgin_damage with storage lib_w:var
-execute unless entity @e[tag=bullet_owner] unless entity @e[tag=attacker_bullet] run function lib_w:player/damage/direct_damage with storage lib_w:var
+execute as @a[tag=victim] at @s run function lib_w:player/damage/knockback
 function lib_w:player/damage/trans_to_break_damage
 effect give @s[type=player] instant_health 1 20
 scoreboard players set #damage-type count 0

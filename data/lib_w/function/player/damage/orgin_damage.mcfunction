@@ -1,1 +1,0 @@
-$execute at @e[tag=bullet_owner,limit=1] run damage @s $(damage) mob_attack at ~ ~ ~

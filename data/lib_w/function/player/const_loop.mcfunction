@@ -6,6 +6,7 @@ function lib_w:player/attack_limit
 function lib_w:player/offhand
 function lib_w:system/music/timer
 function lib_w:player/damage/void
+function lib_w:player/effect_display
 execute if score @s selected matches 1.. run function lib_w:player/select_trigger
 execute if score @s personal matches 1.. run function lib_w:player/personal_trigger
 execute if score @s[tag=admin] admin matches 1.. run function lib_w:player/option_trigger

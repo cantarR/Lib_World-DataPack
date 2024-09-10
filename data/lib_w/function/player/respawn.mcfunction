@@ -1,3 +1,4 @@
+#title @s title {"translate": "sys.title.respawn"}
 scoreboard players operation #player pid = @s pid
 execute as @e[tag=spawnpoint] if score @s pid = #player pid run tag @s add spawn_target
 tp @s @e[tag=spawn_target,limit=1]

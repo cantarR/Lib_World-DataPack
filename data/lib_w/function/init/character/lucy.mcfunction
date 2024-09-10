@@ -440,7 +440,8 @@ data modify storage lib_w:chr CHR_LIST append value {\
 			"minecraft:custom_data":\
 			{\
 				extra_skill:1b,\
-				lucys_necklace:1b\
+				lucys_necklace:1b,\
+				ray:1b\
 			}\
 		}\
 	}\

@@ -1,3 +1,4 @@
+function lib_w:system/music/stop
 execute if entity @s[scores={C=1}] run function lib_w:character/clear
 execute as @a unless score @s pid matches 1.. run function lib_w:player/give_id
 execute as @a[tag=!ingame] run function lib_w:player/default_effect
