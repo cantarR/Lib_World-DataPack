@@ -173,6 +173,22 @@ data modify storage lib_w:lobby Map set value {\
                         },\
                     ]'\
                 },\
+                {\
+                    raw:'[\
+                        {"translate":"lobby.option.map.6","bold":true,"color":"gray"},\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.map.6.event","italic":true},\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.map.size","bold":true},\
+                        {"translate":"lobby.option.map.size.3","bold":true},\
+                        {"text":"\\n\\n"},\
+                        {"translate":"lobby.option.map.choose","bold":true,"color":"green","clickEvent":{\
+                                "action":"run_command",\
+                                "value":"/trigger admin set 106"\
+                            }\
+                        },\
+                    ]'\
+                },\
             ],\
             author:"",\
             title:{\

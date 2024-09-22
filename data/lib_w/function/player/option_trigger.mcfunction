@@ -30,12 +30,14 @@ execute if score @s admin matches 102 run scoreboard players set #GameMap count 
 execute if score @s admin matches 103 run scoreboard players set #GameMap count 2
 execute if score @s admin matches 104 run scoreboard players set #GameMap count 3
 execute if score @s admin matches 105 run scoreboard players set #GameMap count 4
+execute if score @s admin matches 106 run scoreboard players set #GameMap count 5
 
 execute if score #GameMap count matches 0 run data modify storage lib_w:sys Map set value {"translate":"lobby.option.map.1","color":"white"}
 execute if score #GameMap count matches 1 run data modify storage lib_w:sys Map set value {"translate":"lobby.option.map.2","color":"white"}
 execute if score #GameMap count matches 2 run data modify storage lib_w:sys Map set value {"translate":"lobby.option.map.3","color":"white"}
 execute if score #GameMap count matches 3 run data modify storage lib_w:sys Map set value {"translate":"lobby.option.map.4","color":"white"}
 execute if score #GameMap count matches 4 run data modify storage lib_w:sys Map set value {"translate":"lobby.option.map.5","color":"white"}
+execute if score #GameMap count matches 5 run data modify storage lib_w:sys Map set value {"translate":"lobby.option.map.6","color":"white"}
 
 execute if score @s admin matches 301 run scoreboard players add #break_level_limit level 1
 execute if score @s admin matches 302 run scoreboard players remove #break_level_limit level 1

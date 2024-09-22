@@ -1,1 +1,0 @@
-playsound chr.rabbit.melee player @a ~ ~ ~ 1 1

@@ -1,1 +1,1 @@
-#execute as @a run function lib_w:system/music/map1_1
+execute as @a run function lib_w:system/music/map1_1

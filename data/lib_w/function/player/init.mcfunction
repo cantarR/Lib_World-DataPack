@@ -1,3 +1,4 @@
+execute if score #InGame bool matches 0 run tag @s remove ingame
 function lib_w:system/music/stop
 execute if entity @s[scores={C=1}] run function lib_w:character/clear
 execute as @a unless score @s pid matches 1.. run function lib_w:player/give_id

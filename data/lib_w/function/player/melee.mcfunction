@@ -1,2 +1,2 @@
-execute if data entity @s SelectedItem.components."minecraft:custom_data".train_wooden_sword run function lib_w:skill/train_wooden_sword/melee
-execute if data entity @s SelectedItem.components."minecraft:custom_data".eat_grass_2 run function lib_w:skill/eat_grass/melee
+execute if data entity @s SelectedItem.components."minecraft:custom_data".train_wooden_sword run function lib_w:skill/lucy/train_wooden_sword/melee
+execute if data entity @s SelectedItem.components."minecraft:custom_data".eat_grass_2 run function lib_w:skill/rabbit/eat_grass/melee
